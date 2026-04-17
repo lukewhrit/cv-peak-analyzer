@@ -64,10 +64,6 @@ One row per experiment with:
 - Cathodic peak current and potential
 - Anodic and cathodic peak heights
 
-## Special cases
-
-A special-case flag can be enabled per file for experiments where the standard tangent method does not apply. The included example flags `Exp 10` and measures its anodic height from a reference at x = 0.1V instead of from the tangent at the peak position.
-
 ## Limitations
 
 The analyzer works well on CVs with clean reversible redox peaks. For experiments with no real peaks (featureless baselines), truncated peaks (instrument compliance saturation), or asymmetric one-directional reactions, the automatic peak detection may still pick points but the measured heights will not be chemically meaningful. Always verify results by inspecting the generated plots.
