@@ -2,7 +2,7 @@
 
 Batch analysis of cyclic voltammetry data
 
-Parses both data recorded from Digi-Ivy and Admmiral Instruments squidstat equipment.
+Parses both data recorded from Digi-Ivy and Admiral Instruments squidstat equipment.
 
 ## What it does
 
